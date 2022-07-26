@@ -23,7 +23,8 @@ exports.createCatalog = async(req, res, next) => {
     const catalog = await Catalog.create({
         itemName: req.body.itemName,
         itemQuantity: req.body.itemQuantity,
-        seller: req.body.seller
+        seller: req.body.seller,
+        itemPrice: req.body.price
     })
 
     res.status(201).json({
@@ -59,7 +60,7 @@ exports.createOrder = async(req, res, next) => {
     const order = await Order.create({
         itemName: req.body.itemName,
         itemQuantity: req.body.itemQuantity,
-        seller: req.body.seller,
+        seller: seller_id,
         buyer: req.body.buyer,
     })
 

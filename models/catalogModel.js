@@ -11,6 +11,10 @@ const catalogSchema = new mongoose.Schema({
         type: Number,
         required: [true, "Please enter a quantity"]
     },
+    itemPrice:{
+        type: Number,
+        required: [true, "Please enter a price"]
+    },
     seller: {
         type: mongoose.Schema.Types.ObjectId,       
         required: true
