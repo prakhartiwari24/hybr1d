@@ -6,7 +6,7 @@ STEPS TO RUN APIs:
 3)RUN COMMAND "npm start or npm run dev"
 
 ALL THE DATA IS BEING SAVED ON MY MONGODB ATLAS CLOUD
-THERE IS ALREADY IS DUMMY DATA (for testing purposes)
+THERE IS ALREADY SOME DUMMY DATA (for testing purposes)
 
 
 1) Auth APIs
